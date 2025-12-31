@@ -1,0 +1,42 @@
+# Xcode
+*.xcuserstate
+*.xcworkspace
+!default.xcworkspace
+xcuserdata/
+*.xcscmblueprint
+*.hmap
+
+# Build
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods
+Pods/
+*.podspec
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*~.nib
+*.tmp
+
+# Keep the IPA and plist files for OTA distribution
+!CoachApp.ipa
+!manifest.plist
+!DistributionSummary.plist
+!ExportOptions.plist
+
